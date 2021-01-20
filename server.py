@@ -18,7 +18,7 @@ mail = Mail(server)
 
 @server.route('/')
 def home():
-    return jsonify({'message': 'Hello and welcome to <insertName>!'}), 200
+    return jsonify({'message': 'Hello and welcome to our site!'}), 200
 
 #we would use user input i.e. from a form for the recipients attribute - have just hard coded it for now
 #to show a proof of concept
